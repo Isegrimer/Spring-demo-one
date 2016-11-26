@@ -8,7 +8,9 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <!-- Define your beans here -->
-    <bean id ="myCoach" class="com.luv2code.springdemo.TrackCoach">
+    <bean id ="myCoach" class="com.luv2code.springdemo.BaseballCoach">
+    </bean>
+    <bean id="newCoach" class ="com.luv2code.springdemo.bigCoach">
     </bean>
 </beans>
 
