@@ -8,4 +8,10 @@ public class bigCoach implements Coach {
 		return "Run hard 5k  and  Spend 30 minutes on batting Practice";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
