@@ -25,6 +25,11 @@
     <bean id="newCoach" class ="com.luv2code.springdemo.bigCoach">
     </bean>
     
+    <bean id="myCricketCoach"
+    	class="com.luv2code.springdemo.CricketCoach">
+    	<!-- Set up Setter injection -->
+    	<property name="fortuneService" ref="myFortune"></property>
+    </bean>
     
     
     
