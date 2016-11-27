@@ -38,11 +38,16 @@
     	<!-- inject literal Values -->
     	<property name="emailAddress" value="${foo.email}" />
     	<property name="team" value="${foo.team}"/>
-    	
     </bean>
     
+    <!-- Start...Activity No.2 -->
+    <bean id="newImpFortuneService" class="com.luv2code.springdemo.Activity2.newImplementationFortuneService">
+    </bean>
     
-    
+    <bean id="newImplCoach" class="com.luv2code.springdemo.Activity2.CoachImpl">
+    	<constructor-arg ref="newImpFortuneService"/>
+    </bean>
+    <!-- End ....Activity No.2 -->
     
     
 </beans>
